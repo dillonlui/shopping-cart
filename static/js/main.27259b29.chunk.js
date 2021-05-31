@@ -1,0 +1,2 @@
+(this["webpackJsonpshopping-cart"]=this["webpackJsonpshopping-cart"]||[]).push([[0],{10:function(t,e,n){"use strict";n.r(e);var c=n(1),r=n.n(c),i=n(3),s=n.n(i),o=(n(8),n(0));var h=function(){return Object(o.jsx)("div",{children:Object(o.jsx)("h1",{children:"Hello"})})};s.a.render(Object(o.jsx)(r.a.StrictMode,{children:Object(o.jsx)(h,{})}),document.getElementById("root"))},8:function(t,e,n){}},[[10,1,2]]]);
+//# sourceMappingURL=main.27259b29.chunk.js.map
