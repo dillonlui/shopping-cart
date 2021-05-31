@@ -5,6 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  min-height: 5vh;
+  background: lavender;
+}
 
+.navLinks {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(102, 102, 245);
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+  color: rgb(88, 88, 88);
+}
