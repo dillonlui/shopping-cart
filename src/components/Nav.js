@@ -1,21 +1,21 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import { BsBag } from "react-icons/bs"
+import styles from "./Nav.module.css"
 
-const Nav = () => {
+const Nav = (cartItemsQty) => {
     return (
-        <nav>
-            <h3>Logo</h3>
-            <ul className="navLinks">
-                <Link to="/">
-                    <li>Home</li>
-                </Link>
-                <Link to="/shop">
-                    <li>Shop</li>
-                </Link>
-                <Link to="/cart">
-                    <li>Cart</li>
-                </Link>
-            </ul>
+        <nav className={`${styles.root} ${styles['black-text']}`}>
+            <Link to="/">
+                <h1 className={styles.logo}>Shopping Cart</h1>
+            </Link>
+            <Link to="/shop">Shop</Link>
+            <Link to="/cart">
+                <div className={styles.icon}>
+                    <BsBag />
+                    <span className={styles['icon-num']}>{cartItemsQty}</span>
+                </div>
+            </Link>
         </nav>
     )
 }

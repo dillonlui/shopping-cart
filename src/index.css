@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,10 +16,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
 }
 
-nav {
+/* nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,3 +48,39 @@ a:hover {
   text-decoration: underline;
   color: rgb(88, 88, 88);
 }
+
+.shopContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shopItems {
+  flex-grow: 3;
+}
+
+.shopItemList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopCart {
+  flex-grow: 1;
+  border-left: 1px solid black;
+  padding: 0 15px 0 15px;
+}
+
+.itemCard {
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  border: 2px solid transparent;
+}
+
+.itemCard:hover {
+  border: 2px solid rgb(102, 102, 245);
+}
+
+img {
+  height: 10em;
+  max-width: 16em;
+} */
