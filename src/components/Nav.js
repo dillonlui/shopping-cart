@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { BsBag } from "react-icons/bs"
 import styles from "./Nav.module.css"
 
-const Nav = (cartItemsQty) => {
+const Nav = ({ cartItemsQty }) => {
     return (
         <nav className={`${styles.root} ${styles['black-text']}`}>
             <Link to="/">
