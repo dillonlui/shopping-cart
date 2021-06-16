@@ -7,7 +7,7 @@ const Nav = ({ cartItemsQty }) => {
     return (
         <nav className={`${styles.root} ${styles['black-text']}`}>
             <Link to="/">
-                <h1 className={styles.logo}>Shopping Cart</h1>
+                <h1 className={styles.logo}>The Real Shop</h1>
             </Link>
             <Link to="/shop">Shop</Link>
             <Link to="/cart">
