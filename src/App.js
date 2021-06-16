@@ -27,12 +27,12 @@ function App() {
   const deleteCartItem = (id) => {
     setCartItems(cartItems.filter((item) => item.id !== id))
   }
-  const findItem = (id) => { seedItems.find((item) => item.id === id) }
+  const findItem = (id) => seedItems.find((item) => item.id === id)
   const cartItemsQty = cartItems.reduce((acc, cur) => acc + cur.qty, 0)
 
   return (
     <BrowserRouter>
-      <Nav />
+      <Nav cartItemsQty={cartItemsQty} />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/shopping-cart" component={Home} />
